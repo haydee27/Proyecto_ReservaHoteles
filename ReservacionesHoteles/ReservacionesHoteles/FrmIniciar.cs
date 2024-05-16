@@ -8,9 +8,12 @@ namespace ReservacionesHoteles
     {
         //public static class ConexionBD
         //{
-            //public static string baseDatos { get; } = "Server=Jonathan-PC; Database=ReservaHoteles; Integrated Security=True;";
+        //public static string baseDatos { get; } = "Server=Jonathan-PC; Database=ReservaHoteles; Integrated Security=True;";
         //}
         //public static string baseDatos = ;
+
+       
+
 
         public FrmIniciar()
         {
