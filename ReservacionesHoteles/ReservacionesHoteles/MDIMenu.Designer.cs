@@ -34,9 +34,7 @@
             this.gestionDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.informacionDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionDeHabitacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.informacionDeHabitacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestionDeReservasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reservaDeHabitacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.InformacionDeHabitacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -50,7 +48,6 @@
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gestionDeClientesToolStripMenuItem,
             this.gestionDeHabitacionesToolStripMenuItem,
-            this.gestionDeReservasToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
@@ -76,36 +73,23 @@
             // gestionDeHabitacionesToolStripMenuItem
             // 
             this.gestionDeHabitacionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.informacionDeHabitacionesToolStripMenuItem});
+            this.InformacionDeHabitacionesToolStripMenuItem});
             this.gestionDeHabitacionesToolStripMenuItem.Name = "gestionDeHabitacionesToolStripMenuItem";
             this.gestionDeHabitacionesToolStripMenuItem.Size = new System.Drawing.Size(147, 20);
             this.gestionDeHabitacionesToolStripMenuItem.Text = "Gestion de Habitaciones";
             // 
-            // informacionDeHabitacionesToolStripMenuItem
+            // InformacionDeHabitacionesToolStripMenuItem
             // 
-            this.informacionDeHabitacionesToolStripMenuItem.Name = "informacionDeHabitacionesToolStripMenuItem";
-            this.informacionDeHabitacionesToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
-            this.informacionDeHabitacionesToolStripMenuItem.Text = "Informacion de Habitaciones";
-            // 
-            // gestionDeReservasToolStripMenuItem
-            // 
-            this.gestionDeReservasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.reservaDeHabitacionesToolStripMenuItem});
-            this.gestionDeReservasToolStripMenuItem.Name = "gestionDeReservasToolStripMenuItem";
-            this.gestionDeReservasToolStripMenuItem.Size = new System.Drawing.Size(123, 20);
-            this.gestionDeReservasToolStripMenuItem.Text = "Gestion de Reservas";
-            // 
-            // reservaDeHabitacionesToolStripMenuItem
-            // 
-            this.reservaDeHabitacionesToolStripMenuItem.Name = "reservaDeHabitacionesToolStripMenuItem";
-            this.reservaDeHabitacionesToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.reservaDeHabitacionesToolStripMenuItem.Text = "Reserva de Habitaciones";
+            this.InformacionDeHabitacionesToolStripMenuItem.Name = "InformacionDeHabitacionesToolStripMenuItem";
+            this.InformacionDeHabitacionesToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
+            this.InformacionDeHabitacionesToolStripMenuItem.Text = "Informacion de Habitaciones";
+            this.InformacionDeHabitacionesToolStripMenuItem.Click += new System.EventHandler(this.InformacionDeHabitacionesToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
-            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.salirToolStripMenuItem.Text = "Cerrar sesion";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // toolStrip
@@ -142,6 +126,7 @@
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MDIMenu";
             this.Text = "MDIMenu";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.toolStrip.ResumeLayout(false);
@@ -159,10 +144,8 @@
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.ToolStripMenuItem gestionDeClientesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionDeHabitacionesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gestionDeReservasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem informacionDeClientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem informacionDeHabitacionesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reservaDeHabitacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem InformacionDeHabitacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
 }

@@ -6,7 +6,11 @@ namespace ReservacionesHoteles
 {
     public partial class FrmIniciar : Form
     {
-        public static string baseDatos = "Server=DESKTOP-NFDMETJ; Database=ReservaHoteles; Integrated Security=True;";
+        //public static class ConexionBD
+        //{
+            //public static string baseDatos { get; } = "Server=Jonathan-PC; Database=ReservaHoteles; Integrated Security=True;";
+        //}
+        //public static string baseDatos = ;
 
         public FrmIniciar()
         {
@@ -15,14 +19,14 @@ namespace ReservacionesHoteles
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
         private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
 
             // Utiliza el objeto SqlConnection para conectar con la base de datos.
-            using (SqlConnection conexion = new SqlConnection(baseDatos))
+            using (SqlConnection conexion = new SqlConnection(ConexionBD.baseDatos))
             {
                 // Abre la conexión a la base de datos.
                 conexion.Open();
@@ -33,19 +37,19 @@ namespace ReservacionesHoteles
                     var resultado = val.VerificarCredenciales(txtNombre.Text, txtContraseña.Text, conexion);
 
                         //Al ser un valor boolean basta con poner la variable en el if
-                        if(resultado)
-                        {
-                            MessageBox.Show("Inicio de sesión exitoso.");
-                            MDIMenu fr1 = new MDIMenu();
-                            fr1.ShowDialog();
-                            Show();
-                            LimpiarCampos();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Usuario o contraseña incorrecta.","Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                            LimpiarCampos();
-                        }
+                    if(resultado)
+                    {
+                        LimpiarCampos();
+                        this.Hide();
+                        MDIMenu fr1 = new MDIMenu();
+                        fr1.MdiParent = this.MdiParent;
+                        fr1.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario o contraseña incorrecta.","Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        LimpiarCampos();
+                    }
                 }
                 else
                 {
@@ -60,9 +64,15 @@ namespace ReservacionesHoteles
 
         private void LimpiarCampos()
         {
-            txtNombre.Text = "";
-            txtContraseña.Text = "";
+            txtNombre.Clear();
+            txtContraseña.Clear();
             txtNombre.Focus();
+        }
+
+        private void BtnLimpiar_Click(object sender, EventArgs e)
+        {
+            LimpiarCampos();
+
         }
     }
 }

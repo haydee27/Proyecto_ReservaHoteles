@@ -28,7 +28,16 @@ namespace ReservacionesHoteles
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Close();
+            FrmIniciar frmIniciar = new FrmIniciar();
+            frmIniciar.Show();
+            this.Close();
+        }
+
+        private void InformacionDeHabitacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmGestionHabitaciones gestionHabitaciones = new FrmGestionHabitaciones();
+            gestionHabitaciones.MdiParent = this;
+            gestionHabitaciones.Show();
         }
     }
 }

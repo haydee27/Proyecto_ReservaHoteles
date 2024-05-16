@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmIniciar));
             this.gboLogin = new System.Windows.Forms.GroupBox();
+            this.BtnLimpiar = new System.Windows.Forms.Button();
             this.btnIniciarSesion = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.txtContraseña = new System.Windows.Forms.TextBox();
@@ -47,6 +48,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gboLogin.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.gboLogin.Controls.Add(this.BtnLimpiar);
             this.gboLogin.Controls.Add(this.btnIniciarSesion);
             this.gboLogin.Controls.Add(this.btnSalir);
             this.gboLogin.Controls.Add(this.txtContraseña);
@@ -62,10 +64,21 @@
             this.gboLogin.TabStop = false;
             this.gboLogin.Text = "Iniciar Sesion";
             // 
+            // BtnLimpiar
+            // 
+            this.BtnLimpiar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BtnLimpiar.Location = new System.Drawing.Point(152, 317);
+            this.BtnLimpiar.Name = "BtnLimpiar";
+            this.BtnLimpiar.Size = new System.Drawing.Size(122, 30);
+            this.BtnLimpiar.TabIndex = 7;
+            this.BtnLimpiar.Text = "Limpiar";
+            this.BtnLimpiar.UseVisualStyleBackColor = true;
+            this.BtnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
+            // 
             // btnIniciarSesion
             // 
             this.btnIniciarSesion.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnIniciarSesion.Location = new System.Drawing.Point(296, 376);
+            this.btnIniciarSesion.Location = new System.Drawing.Point(296, 317);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
             this.btnIniciarSesion.Size = new System.Drawing.Size(122, 30);
             this.btnIniciarSesion.TabIndex = 6;
@@ -76,7 +89,7 @@
             // btnSalir
             // 
             this.btnSalir.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnSalir.Location = new System.Drawing.Point(117, 376);
+            this.btnSalir.Location = new System.Drawing.Point(402, 390);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(100, 30);
             this.btnSalir.TabIndex = 5;
@@ -162,6 +175,7 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button btnIniciarSesion;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button BtnLimpiar;
     }
 }
 

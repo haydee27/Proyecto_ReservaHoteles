@@ -22,3 +22,16 @@ C:\Users\MINEDUCYT\Documents\UNIVERSIDAD\Ciclo 3\progra 1\Proyecto\Reservaciones
 C:\Users\MINEDUCYT\Documents\UNIVERSIDAD\Ciclo 3\progra 1\Proyecto\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.csproj.CoreCompileInputs.cache
 C:\Users\MINEDUCYT\Documents\UNIVERSIDAD\Ciclo 3\progra 1\Proyecto\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.exe
 C:\Users\MINEDUCYT\Documents\UNIVERSIDAD\Ciclo 3\progra 1\Proyecto\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.pdb
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\bin\Debug\ReservacionesHoteles.exe.config
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\bin\Debug\ReservacionesHoteles.exe
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\bin\Debug\ReservacionesHoteles.pdb
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.FrmClientes.resources
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.FrmGestionHabitaciones.resources
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.FrmIniciar.resources
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.MDIMenu.resources
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.Properties.Resources.resources
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.csproj.GenerateResource.cache
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.exe
+C:\Users\Jonathan\Documents\GitHub\Proyecto_ReservaHoteles\ReservacionesHoteles\ReservacionesHoteles\obj\Debug\ReservacionesHoteles.pdb
