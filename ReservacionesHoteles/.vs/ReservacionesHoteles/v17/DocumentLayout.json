@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\reservacioneshoteles\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|solutionrelative:reservacioneshoteles\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|c:\\users\\jonathan\\documents\\github\\proyecto_reservahoteles\\reservacioneshoteles\\reservacioneshoteles\\frminiciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|solutionrelative:reservacioneshoteles\\frminiciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|c:\\users\\jonathan\\documents\\github\\proyecto_reservahoteles\\reservacioneshoteles\\reservacioneshoteles\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|solutionrelative:reservacioneshoteles\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\reservacioneshoteles\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|solutionrelative:reservacioneshoteles\\mdimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\reservacioneshoteles\\frmgestionhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|solutionrelative:reservacioneshoteles\\frmgestionhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|c:\\users\\jonathan\\documents\\github\\proyecto_reservahoteles\\reservacioneshoteles\\reservacioneshoteles\\frmgestionhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|solutionrelative:reservacioneshoteles\\frmgestionhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\ValidarCredenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|solutionrelative:ReservacionesHoteles\\ValidarCredenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\reservacioneshoteles\\frminiciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|solutionrelative:reservacioneshoteles\\frminiciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|c:\\users\\jonathan\\documents\\github\\proyecto_reservahoteles\\reservacioneshoteles\\reservacioneshoteles\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|solutionrelative:reservacioneshoteles\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\reservacioneshoteles\\frminiciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97571A6E-A63F-4E78-8173-82A533F3EA40}|ReservacionesHoteles\\ReservacionesHoteles.csproj|solutionrelative:reservacioneshoteles\\frminiciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,12 +45,59 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmGestionHabitaciones.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\FrmGestionHabitaciones.cs",
+              "RelativeDocumentMoniker": "ReservacionesHoteles\\FrmGestionHabitaciones.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\FrmGestionHabitaciones.cs",
+              "RelativeToolTip": "ReservacionesHoteles\\FrmGestionHabitaciones.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:42:14.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MDIMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\MDIMenu.cs",
+              "RelativeDocumentMoniker": "ReservacionesHoteles\\MDIMenu.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\MDIMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ReservacionesHoteles\\MDIMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:52:39.941Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MDIMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\MDIMenu.cs",
+              "RelativeDocumentMoniker": "ReservacionesHoteles\\MDIMenu.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\MDIMenu.cs",
+              "RelativeToolTip": "ReservacionesHoteles\\MDIMenu.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwH0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:43:15.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidarCredenciales.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\ValidarCredenciales.cs",
+              "RelativeDocumentMoniker": "ReservacionesHoteles\\ValidarCredenciales.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\ValidarCredenciales.cs",
+              "RelativeToolTip": "ReservacionesHoteles\\ValidarCredenciales.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T04:52:30.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ConexionBD.cs",
               "DocumentMoniker": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\ConexionBD.cs",
               "RelativeDocumentMoniker": "ReservacionesHoteles\\ConexionBD.cs",
@@ -63,30 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ValidarCredenciales.cs",
-              "DocumentMoniker": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\ValidarCredenciales.cs",
-              "RelativeDocumentMoniker": "ReservacionesHoteles\\ValidarCredenciales.cs",
-              "ToolTip": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\ValidarCredenciales.cs",
-              "RelativeToolTip": "ReservacionesHoteles\\ValidarCredenciales.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T04:52:30.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MDIMenu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\MDIMenu.cs",
-              "RelativeDocumentMoniker": "ReservacionesHoteles\\MDIMenu.cs",
-              "ToolTip": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\MDIMenu.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ReservacionesHoteles\\MDIMenu.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T06:52:39.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "FrmIniciar.cs",
               "DocumentMoniker": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\FrmIniciar.cs",
               "RelativeDocumentMoniker": "ReservacionesHoteles\\FrmIniciar.cs",
@@ -96,28 +120,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T04:46:46.799Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmGestionHabitaciones.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\FrmGestionHabitaciones.cs",
-              "RelativeDocumentMoniker": "ReservacionesHoteles\\FrmGestionHabitaciones.cs",
-              "ToolTip": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\FrmGestionHabitaciones.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ReservacionesHoteles\\FrmGestionHabitaciones.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T05:26:08.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmIniciar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Jonathan\\Documents\\GitHub\\Proyecto_ReservaHoteles\\ReservacionesHoteles\\ReservacionesHoteles\\FrmIniciar.cs",
-              "RelativeDocumentMoniker": "ReservacionesHoteles\\FrmIniciar.cs",
-              "ToolTip": "C:\\Users\\MINEDUCYT\\Documents\\UNIVERSIDAD\\Ciclo 3\\progra 1\\Proyecto\\ReservacionesHoteles\\ReservacionesHoteles\\FrmIniciar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\MINEDUCYT\\Documents\\UNIVERSIDAD\\Ciclo 3\\progra 1\\Proyecto\\ReservacionesHoteles\\ReservacionesHoteles\\FrmIniciar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T04:30:08.609Z"
             }
           ]
         }
