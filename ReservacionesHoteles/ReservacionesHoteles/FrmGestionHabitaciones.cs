@@ -13,7 +13,8 @@ namespace ReservacionesHoteles
 {
     public partial class FrmGestionHabitaciones : Form
     {
-        public FrmGestionHabitaciones()
+       
+    public FrmGestionHabitaciones()
         {
             InitializeComponent();
         }
@@ -27,6 +28,15 @@ namespace ReservacionesHoteles
             DataTable dt = new DataTable();
             adaptador.Fill(dt);
             dtgvHabitaciones.DataSource = dt;
+        }
+
+        private void BtnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtNumHabitacion.Clear();
+            txtTipo.Clear();
+            txtPrecio.Clear();
+            chkDisponibilidad.Checked = false;
+            txtNumHabitacion.Focus();
         }
     }
 }
