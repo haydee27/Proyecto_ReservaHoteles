@@ -44,6 +44,8 @@
             this.dtgvHabitaciones = new System.Windows.Forms.DataGridView();
             this.checkDisponi = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtHabitaID = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.BtnBuscar = new System.Windows.Forms.Button();
             this.txtIdHotel = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -55,8 +57,6 @@
             this.txtTipoHabita = new System.Windows.Forms.TextBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtHabitaID = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvHabitaciones)).BeginInit();
@@ -65,13 +65,14 @@
             // 
             // menuStrip
             // 
+            this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gestionDeClientesToolStripMenuItem,
             this.gestionDeHabitacionesToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(1325, 24);
+            this.menuStrip.Size = new System.Drawing.Size(1325, 28);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -80,13 +81,13 @@
             this.gestionDeClientesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.informacionDeClientesToolStripMenuItem});
             this.gestionDeClientesToolStripMenuItem.Name = "gestionDeClientesToolStripMenuItem";
-            this.gestionDeClientesToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
+            this.gestionDeClientesToolStripMenuItem.Size = new System.Drawing.Size(150, 24);
             this.gestionDeClientesToolStripMenuItem.Text = "Gestion de Clientes";
             // 
             // informacionDeClientesToolStripMenuItem
             // 
             this.informacionDeClientesToolStripMenuItem.Name = "informacionDeClientesToolStripMenuItem";
-            this.informacionDeClientesToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.informacionDeClientesToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
             this.informacionDeClientesToolStripMenuItem.Text = "Informacion de Clientes";
             this.informacionDeClientesToolStripMenuItem.Click += new System.EventHandler(this.informacionDeClientesToolStripMenuItem_Click);
             // 
@@ -95,20 +96,20 @@
             this.gestionDeHabitacionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.InformacionDeHabitacionesToolStripMenuItem});
             this.gestionDeHabitacionesToolStripMenuItem.Name = "gestionDeHabitacionesToolStripMenuItem";
-            this.gestionDeHabitacionesToolStripMenuItem.Size = new System.Drawing.Size(118, 20);
+            this.gestionDeHabitacionesToolStripMenuItem.Size = new System.Drawing.Size(149, 24);
             this.gestionDeHabitacionesToolStripMenuItem.Text = "Gestion de Reserva";
             // 
             // InformacionDeHabitacionesToolStripMenuItem
             // 
             this.InformacionDeHabitacionesToolStripMenuItem.Name = "InformacionDeHabitacionesToolStripMenuItem";
-            this.InformacionDeHabitacionesToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
+            this.InformacionDeHabitacionesToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
             this.InformacionDeHabitacionesToolStripMenuItem.Text = "Informacion de Habitaciones";
             this.InformacionDeHabitacionesToolStripMenuItem.Click += new System.EventHandler(this.InformacionDeHabitacionesToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
             this.salirToolStripMenuItem.Text = "Cerrar sesion";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -119,7 +120,7 @@
             this.toolStrip.ImageScalingSize = new System.Drawing.Size(0, 0);
             this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripSeparator1});
-            this.toolStrip.Location = new System.Drawing.Point(0, 24);
+            this.toolStrip.Location = new System.Drawing.Point(0, 28);
             this.toolStrip.Name = "toolStrip";
             this.toolStrip.Padding = new System.Windows.Forms.Padding(0);
             this.toolStrip.Size = new System.Drawing.Size(1325, 25);
@@ -147,6 +148,7 @@
             this.dtgvHabitaciones.Location = new System.Drawing.Point(471, 88);
             this.dtgvHabitaciones.Name = "dtgvHabitaciones";
             this.dtgvHabitaciones.ReadOnly = true;
+            this.dtgvHabitaciones.RowHeadersWidth = 51;
             this.dtgvHabitaciones.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgvHabitaciones.Size = new System.Drawing.Size(813, 569);
             this.dtgvHabitaciones.TabIndex = 11;
@@ -160,7 +162,7 @@
             this.checkDisponi.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkDisponi.Location = new System.Drawing.Point(45, 225);
             this.checkDisponi.Name = "checkDisponi";
-            this.checkDisponi.Size = new System.Drawing.Size(145, 26);
+            this.checkDisponi.Size = new System.Drawing.Size(182, 31);
             this.checkDisponi.TabIndex = 18;
             this.checkDisponi.Text = "Disponibilidad";
             this.checkDisponi.UseVisualStyleBackColor = false;
@@ -189,10 +191,29 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+            // txtHabitaID
+            // 
+            this.txtHabitaID.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHabitaID.Location = new System.Drawing.Point(215, 48);
+            this.txtHabitaID.Name = "txtHabitaID";
+            this.txtHabitaID.Size = new System.Drawing.Size(130, 29);
+            this.txtHabitaID.TabIndex = 30;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(42, 51);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(132, 22);
+            this.label4.TabIndex = 29;
+            this.label4.Text = "Habitacion ID";
+            // 
             // BtnBuscar
             // 
             this.BtnBuscar.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBuscar.Location = new System.Drawing.Point(137, 451);
+            this.BtnBuscar.Location = new System.Drawing.Point(33, 452);
             this.BtnBuscar.Name = "BtnBuscar";
             this.BtnBuscar.Size = new System.Drawing.Size(90, 42);
             this.BtnBuscar.TabIndex = 26;
@@ -205,7 +226,7 @@
             this.txtIdHotel.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIdHotel.Location = new System.Drawing.Point(215, 79);
             this.txtIdHotel.Name = "txtIdHotel";
-            this.txtIdHotel.Size = new System.Drawing.Size(130, 25);
+            this.txtIdHotel.Size = new System.Drawing.Size(130, 29);
             this.txtIdHotel.TabIndex = 25;
             // 
             // label3
@@ -215,7 +236,7 @@
             this.label3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(42, 82);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 18);
+            this.label3.Size = new System.Drawing.Size(81, 22);
             this.label3.TabIndex = 24;
             this.label3.Text = "ID Hotel";
             // 
@@ -235,7 +256,7 @@
             this.lblNumHabita.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumHabita.Location = new System.Drawing.Point(42, 113);
             this.lblNumHabita.Name = "lblNumHabita";
-            this.lblNumHabita.Size = new System.Drawing.Size(167, 18);
+            this.lblNumHabita.Size = new System.Drawing.Size(220, 22);
             this.lblNumHabita.TabIndex = 12;
             this.lblNumHabita.Text = "Numero de habitacion:";
             // 
@@ -244,7 +265,7 @@
             this.txtNumHabita.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumHabita.Location = new System.Drawing.Point(215, 110);
             this.txtNumHabita.Name = "txtNumHabita";
-            this.txtNumHabita.Size = new System.Drawing.Size(130, 25);
+            this.txtNumHabita.Size = new System.Drawing.Size(130, 29);
             this.txtNumHabita.TabIndex = 13;
             // 
             // label2
@@ -254,7 +275,7 @@
             this.label2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(42, 286);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 18);
+            this.label2.Size = new System.Drawing.Size(129, 22);
             this.label2.TabIndex = 19;
             this.label2.Text = "Descripcion:";
             // 
@@ -265,7 +286,7 @@
             this.lblTipo.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTipo.Location = new System.Drawing.Point(42, 157);
             this.lblTipo.Name = "lblTipo";
-            this.lblTipo.Size = new System.Drawing.Size(145, 18);
+            this.lblTipo.Size = new System.Drawing.Size(190, 22);
             this.lblTipo.TabIndex = 14;
             this.lblTipo.Text = "Tipo de Habitacion:";
             // 
@@ -274,7 +295,7 @@
             this.txtTipoHabita.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTipoHabita.Location = new System.Drawing.Point(193, 154);
             this.txtTipoHabita.Name = "txtTipoHabita";
-            this.txtTipoHabita.Size = new System.Drawing.Size(152, 25);
+            this.txtTipoHabita.Size = new System.Drawing.Size(152, 29);
             this.txtTipoHabita.TabIndex = 15;
             // 
             // txtPrecio
@@ -282,7 +303,7 @@
             this.txtPrecio.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrecio.Location = new System.Drawing.Point(101, 194);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(244, 25);
+            this.txtPrecio.Size = new System.Drawing.Size(244, 29);
             this.txtPrecio.TabIndex = 17;
             // 
             // label1
@@ -292,28 +313,9 @@
             this.label1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(42, 197);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 18);
+            this.label1.Size = new System.Drawing.Size(77, 22);
             this.label1.TabIndex = 16;
             this.label1.Text = "Precio:";
-            // 
-            // txtHabitaID
-            // 
-            this.txtHabitaID.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHabitaID.Location = new System.Drawing.Point(215, 48);
-            this.txtHabitaID.Name = "txtHabitaID";
-            this.txtHabitaID.Size = new System.Drawing.Size(130, 25);
-            this.txtHabitaID.TabIndex = 30;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(42, 51);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 18);
-            this.label4.TabIndex = 29;
-            this.label4.Text = "Habitacion ID";
             // 
             // MDIMenu
             // 

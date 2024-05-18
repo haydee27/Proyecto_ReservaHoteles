@@ -30,13 +30,13 @@ namespace ReservacionesHoteles
             dtgvHabitaciones.DataSource = dt;
         }
 
-        private void BtnLimpiar_Click(object sender, EventArgs e)
+        /*private void BtnLimpiar_Click(object sender, EventArgs e)
         {
             txtNumHabitacion.Clear();
             txtTipo.Clear();
             txtPrecio.Clear();
             chkDisponibilidad.Checked = false;
             txtNumHabitacion.Focus();
-        }
+        }*/
     }
 }

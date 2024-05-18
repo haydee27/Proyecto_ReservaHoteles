@@ -63,6 +63,7 @@ namespace ReservacionesHoteles
 
         private void BtnBuscar_Click(object sender, EventArgs e)
         {
+            
             using (SqlConnection connection = new SqlConnection(ConexionBD.baseDatos))
             {
                 SqlCommand command = new SqlCommand("BuscarHabitacionesPorDisponibilidad", connection);

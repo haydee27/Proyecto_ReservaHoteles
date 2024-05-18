@@ -15,7 +15,7 @@ namespace ReservacionesHoteles
         //Validamos las credenciales
         public bool VerificarCredenciales(string nombreUsuario, string clave, SqlConnection conexion)
         {
-            string consultaUsuarios = "SELECT TOP 1 * FROM Usuarios WHERE NombreUsuario = @NombreUsuario AND Clave = @Clave";
+            string consultaUsuarios = "SELECT TOP 1 * FROM Usuario WHERE NombreUsuario = @NombreUsuario AND Clave = @Clave";
 
             // SqlCommand se utiliza para enviar comandos SQL a la base de datos
             using (SqlCommand verificacion = new SqlCommand(consultaUsuarios, conexion))
