@@ -18,5 +18,8 @@ namespace ReservacionesHoteles
 
             return conn;
         }
+
+        //public static string baseDatos { get; } = "Server=Jonathan-PC; Database=ReservaHoteles; Integrated Security=True;";
+
     }
 }

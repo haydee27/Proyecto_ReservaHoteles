@@ -34,23 +34,20 @@ namespace ReservacionesHoteles
             this.Close();
         }
 
-        private void InformacionDeHabitacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        private void gestionDeReservaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmGestionHabitaciones gestionHabitaciones = new FrmGestionHabitaciones();
-            gestionHabitaciones.MdiParent = this;
-            gestionHabitaciones.Show();
+            FrmGestionReserva frmGestionReserva = new FrmGestionReserva();
+            frmGestionReserva.MdiParent = this;
+            frmGestionReserva.Show();
         }
 
         private void MDIMenu_Load(object sender, EventArgs e)
         {
-            SqlConnection conexion = new SqlConnection(ConexionBD.baseDatos);
-            SqlCommand ObtenerHabita = new SqlCommand("ObtenerHabitaciones", conexion);
-            ObtenerHabita.CommandType = CommandType.StoredProcedure;
-            SqlDataAdapter adaptador = new SqlDataAdapter(ObtenerHabita);
-            DataTable dt = new DataTable();
-            adaptador.Fill(dt);
-            dtgvHabitaciones.DataSource = dt;
+            FrmGestionHabitaciones FrmGestionHabitaciones = new FrmGestionHabitaciones();
+            FrmGestionHabitaciones.MdiParent= this;
+            FrmGestionHabitaciones.Show();
         }
+
 
         private void dtgvHabitaciones_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -147,7 +144,6 @@ namespace ReservacionesHoteles
         {
 
         }
-
 
     }
 }

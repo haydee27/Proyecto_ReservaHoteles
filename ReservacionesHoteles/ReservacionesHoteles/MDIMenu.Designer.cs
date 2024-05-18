@@ -29,14 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MDIMenu));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.gestionDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.informacionDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestionDeHabitacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.InformacionDeHabitacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionDeReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -57,10 +54,9 @@
             this.txtTipoHabita = new System.Windows.Forms.TextBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvHabitaciones)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip
@@ -68,7 +64,7 @@
             this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gestionDeClientesToolStripMenuItem,
-            this.gestionDeHabitacionesToolStripMenuItem,
+            this.gestionDeReservaToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
@@ -91,7 +87,7 @@
             this.informacionDeClientesToolStripMenuItem.Text = "Informacion de Clientes";
             this.informacionDeClientesToolStripMenuItem.Click += new System.EventHandler(this.informacionDeClientesToolStripMenuItem_Click);
             // 
-            // gestionDeHabitacionesToolStripMenuItem
+            // gestionDeReservaToolStripMenuItem
             // 
             this.gestionDeHabitacionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.InformacionDeHabitacionesToolStripMenuItem});
@@ -105,6 +101,10 @@
             this.InformacionDeHabitacionesToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
             this.InformacionDeHabitacionesToolStripMenuItem.Text = "Informacion de Habitaciones";
             this.InformacionDeHabitacionesToolStripMenuItem.Click += new System.EventHandler(this.InformacionDeHabitacionesToolStripMenuItem_Click);
+            this.gestionDeReservaToolStripMenuItem.Name = "gestionDeReservaToolStripMenuItem";
+            this.gestionDeReservaToolStripMenuItem.Size = new System.Drawing.Size(118, 20);
+            this.gestionDeReservaToolStripMenuItem.Text = "Gestion de Reserva";
+            this.gestionDeReservaToolStripMenuItem.Click += new System.EventHandler(this.gestionDeReservaToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
@@ -325,10 +325,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1325, 749);
-            this.Controls.Add(this.dtgvHabitaciones);
             this.Controls.Add(this.toolStrip);
             this.Controls.Add(this.menuStrip);
-            this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
@@ -340,9 +338,6 @@
             this.menuStrip.PerformLayout();
             this.toolStrip.ResumeLayout(false);
             this.toolStrip.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvHabitaciones)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -355,26 +350,9 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.ToolStripMenuItem gestionDeClientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gestionDeHabitacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gestionDeReservaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem informacionDeClientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem InformacionDeHabitacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.DataGridView dtgvHabitaciones;
-        private System.Windows.Forms.CheckBox checkDisponi;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label lblNumHabita;
-        private System.Windows.Forms.TextBox txtNumHabita;
-        private System.Windows.Forms.Label lblTipo;
-        private System.Windows.Forms.TextBox txtTipoHabita;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtPrecio;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox descript;
-        private System.Windows.Forms.TextBox txtIdHotel;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button BtnBuscar;
-        private System.Windows.Forms.TextBox txtHabitaID;
-        private System.Windows.Forms.Label label4;
     }
 }
 
