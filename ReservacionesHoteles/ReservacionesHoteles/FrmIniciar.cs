@@ -34,10 +34,10 @@ namespace ReservacionesHoteles
                 // Abre la conexión a la base de datos.
                 conexion.Open();
 
-                if (txtNombre.Text != "" && txtContraseña.Text != "")
+                if (txtNombre.Text != "" && txtContrasena.Text != "")
                 {
                     ValidarCredenciales val = new ValidarCredenciales();
-                    var resultado = val.VerificarCredenciales(txtNombre.Text, txtContraseña.Text, conexion);
+                    var resultado = val.VerificarCredenciales(txtNombre.Text, txtContrasena.Text, conexion);
 
                         //Al ser un valor boolean basta con poner la variable en el if
                     if(resultado)
@@ -68,7 +68,7 @@ namespace ReservacionesHoteles
         private void LimpiarCampos()
         {
             txtNombre.Clear();
-            txtContraseña.Clear();
+            txtContrasena.Clear();
             txtNombre.Focus();
         }
 

@@ -33,7 +33,7 @@
             this.BtnLimpiar = new System.Windows.Forms.Button();
             this.btnIniciarSesion = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtContrasena = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
@@ -51,7 +51,7 @@
             this.gboLogin.Controls.Add(this.BtnLimpiar);
             this.gboLogin.Controls.Add(this.btnIniciarSesion);
             this.gboLogin.Controls.Add(this.btnSalir);
-            this.gboLogin.Controls.Add(this.txtContraseña);
+            this.gboLogin.Controls.Add(this.txtContrasena);
             this.gboLogin.Controls.Add(this.txtNombre);
             this.gboLogin.Controls.Add(this.label2);
             this.gboLogin.Controls.Add(this.lblNombre);
@@ -97,14 +97,14 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // txtContraseña
+            // txtContrasena
             // 
-            this.txtContraseña.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtContraseña.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseña.Location = new System.Drawing.Point(194, 272);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(224, 24);
-            this.txtContraseña.TabIndex = 4;
+            this.txtContrasena.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtContrasena.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContrasena.Location = new System.Drawing.Point(194, 272);
+            this.txtContrasena.Name = "txtContrasena";
+            this.txtContrasena.Size = new System.Drawing.Size(224, 24);
+            this.txtContrasena.TabIndex = 4;
             // 
             // txtNombre
             // 
@@ -172,7 +172,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblNombre;
-        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.TextBox txtContrasena;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button btnIniciarSesion;
         private System.Windows.Forms.Button btnSalir;
